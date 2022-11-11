@@ -37,7 +37,7 @@ chown -R mlflow:mlflow $MLFLOW_HOME
 chown mlflow /var/log/mlflow
 
 # create a persistent varable for AIRFLOW across all users env
-echo export MLFLOW_HOME=/opt/mlfloww > /etc/profile.d/mlflow.sh
+echo export MLFLOW_HOME=/opt/mlflow > /etc/profile.d/mlflow.sh
 
 sudo tee -a /tmp/mlflow_environment<<EOL
 MLFLOW_HOME=/opt/mlflow
