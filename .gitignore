@@ -1,1 +1,4 @@
 .vagrant/*
+projects/mlruns/*
+meta.yaml
+projects/*/mlruns/*
